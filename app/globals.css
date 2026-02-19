@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Font utilities */
+.font-upright {
+  font-family: var(--font-cormorant-upright);
+}
+
+.font-garamond {
+  font-family: var(--font-cormorant-garamond);
+}
+
+.font-playfair {
+  font-family: var(--font-playfair);
+}
+
+.font-upright-fallback {
+  font-family: var(--font-cormorant-upright), serif;
+}
+
+.font-garamond-fallback {
+  font-family: var(--font-cormorant-garamond), serif;
+}
+
+.font-playfair-fallback {
+  font-family: var(--font-playfair), serif;
+}
