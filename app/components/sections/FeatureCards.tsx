@@ -28,7 +28,7 @@ const FeatureCards: React.FC = () => {
       description:
         "Some moments deserve more than words. Mark life's most meaningful occasions with pieces chosen to last — from intimate celebrations to milestones remembered forever.",
       linkText: 'Discover Gifts by Occasion',
-      image: '/Heroimage/image (1).webp',
+      image:"/Heroimage/image (1).webp",
       isReversed: false,
     },
     {
