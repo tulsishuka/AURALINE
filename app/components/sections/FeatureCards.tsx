@@ -60,8 +60,8 @@ const FeatureCards: React.FC = () => {
               <Image
                 src={item.image}
                 alt={item.title}
-                width={300}
-                height={300}
+                width={200}
+                height={200}
                 className="w-full h-auto object-cover block shadow-sm"
               />
             </motion.div>
