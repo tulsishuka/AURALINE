@@ -28,7 +28,6 @@ type Service = {
   title: string;
   desc: string;
   link: string;
-  Icon: string; // Image path for service icon
 };
 
 const FeaturedContent: React.FC = () => {
@@ -60,10 +59,10 @@ const FeaturedContent: React.FC = () => {
   ];
 
   const services: Service[] = [
-    { title: 'Book an Appointment', desc: 'Contact us to book in store or virtual appointments.', link: 'BOOK AN APPOINTMENT', Icon: '/HeroImage/calendar.webp' },
-    { title: 'Shipping & Returns', desc: 'Complimentary shipping and returns on all orders.', link: 'LEARN MORE', Icon: '/HeroImage/delivery.webp' },
-    { title: 'At Your Service', desc: 'Our client advisors are always here to help.', link: 'CONTACT US', Icon: '/HeroImage/hand_package.webp' },
-    { title: 'Gift Services', desc: 'Add a personalized touch', link: 'SEE ALL GIFTS', Icon: '/HeroImage/gifts.webp' },
+    { title: 'Book an Appointment', desc: 'Contact us to book in store or virtual appointments.', link: 'BOOK AN APPOINTMENT',  },
+    { title: 'Shipping & Returns', desc: 'Complimentary shipping and returns on all orders.', link: 'LEARN MORE',  },
+    { title: 'At Your Service', desc: 'Our client advisors are always here to help.', link: 'CONTACT US', },
+    { title: 'Gift Services', desc: 'Add a personalized touch', link: 'SEE ALL GIFTS',  },
   ];
 
   return (
@@ -150,16 +149,7 @@ const FeaturedContent: React.FC = () => {
             variants={cardVariants}
             className="flex flex-col items-center text-center"
           >
-            {/* Render Image Icon */}
-            <div className="w-8 h-8 mb-6 relative">
-              <Image
-                src={service.Icon}
-                alt={service.title}
-                width={32}
-                height={32}
-                className="object-contain"
-              />
-            </div>
+           
 
             <motion.h3 variants={textVariants} className="text-lg font-playfair text-[#000000] font-semibold mb-4">
               {service.title}

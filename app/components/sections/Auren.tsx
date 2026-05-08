@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { Mail } from 'lucide-react';
-import Image from 'next/image';
 import { motion, Variants } from 'framer-motion';
 import AnimatedButton from '../ui/Button';
 
@@ -30,13 +29,13 @@ const Six: React.FC = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2, ease: 'easeOut' }}
       >
-        <Image
+        {/* <Image
           src="/HeroImage/contact.webp"
           alt="Luxury Interior"
           className="w-full h-full object-cover"
           width={2000}
           height={1500}
-        />
+        /> */}
         <div className="absolute inset-0 bg-black/5"></div>
       </motion.div>
 
