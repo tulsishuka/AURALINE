@@ -36,13 +36,13 @@ const FeaturedContent: React.FC = () => {
       title: 'A New Chapter Unfolds',
       desc: 'An evolution of form and feeling — our latest creations arrive soon',
       link: 'Sign Up For Emails',
-      img: '/Heroimage/image (13).webp',
+      img: '/Heroimage/bag.png',
     },
     {
       title: 'Redefining Everyday Luxury',
       desc: 'Designed to move effortlessly through modern life.',
       link: 'Discover the Collection',
-      img: '/Heroimage/image (12).webp',
+      img: '/Heroimage/Frame 50.png',
     },
     {
       title: 'The Story Behind the Craft',
