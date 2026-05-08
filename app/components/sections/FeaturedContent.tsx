@@ -37,19 +37,19 @@ const FeaturedContent: React.FC = () => {
       title: 'A New Chapter Unfolds',
       desc: 'An evolution of form and feeling — our latest creations arrive soon',
       link: 'Sign Up For Emails',
-      img: '/HeroImage/image (16).webp',
+      img: '/HeroImage/image (18).webp',
     },
     {
       title: 'Redefining Everyday Luxury',
       desc: 'Designed to move effortlessly through modern life.',
       link: 'Discover the Collection',
-      img: '/HeroImage/image (17).webp',
+      img: '/HeroImage/image (19).webp',
     },
     {
       title: 'The Story Behind the Craft',
       desc: 'A journey shaped by precision, passion, and purpose.',
       link: 'Explore Our Story',
-      img: '/HeroImage/image (18).webp',
+      img: '/HeroImage/image (9).webp',
     },
     {
       title: 'Beyond Jewellery',
