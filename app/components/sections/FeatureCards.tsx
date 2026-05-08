@@ -36,7 +36,7 @@ const FeatureCards: React.FC = () => {
       description:
         'A gift is never just an object. It is intention, emotion, and memory, crafted with care and wrapped in timeless design — made to be treasured long after it is given.',
       linkText: 'Discover Signature Gifts',
-      image: '/HeroImage/image (15).webp',
+      image: "/Heroimage/image (4).webp",
       isReversed: true,
     },
   ];
